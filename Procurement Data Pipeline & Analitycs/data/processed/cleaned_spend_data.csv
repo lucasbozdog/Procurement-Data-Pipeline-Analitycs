@@ -1,0 +1,36 @@
+supplier_name,description,amount,date,country,currency,supplier_name_clean,parent_supplier,category
+Amazon Inc.,Laptop purchase,1200,2024-01-12,Romania,EUR,amazon inc.,Amazon,IT
+amazon,Cloud hosting services,300,2024-01-15,Romania,EUR,amazon,Amazon,IT
+Staples Ltd,Office chairs,450,2024-01-20,Germany,EUR,staples ltd,Staples,Office
+Ikea,Desk furniture,700,2024-01-25,Germany,EUR,ikea,Ikea,Office
+DHL,Shipping costs,150,2024-01-28,Romania,EUR,dhl,DHL,Logistics
+Unknown Supplier,Printer paper,50,2024-01-30,Romania,EUR,unknown supplier,Unknown Supplier,Office
+Google Ads,Marketing campaign,400,2024-02-02,Romania,EUR,google ads,Google Ads,Marketing
+Facebook,Social media ads,350,2024-02-05,Romania,EUR,facebook,Meta,Marketing
+Amazon EU,Monitor purchase,800,2024-02-10,Romania,EUR,amazon eu,Amazon,IT
+amazon inc.,Software subscription,100,2024-02-15,Romania,EUR,amazon inc.,Amazon,IT
+Staples,Printer ink,120,2024-02-18,Germany,EUR,staples,Staples,Office
+IKEA,Office desk,650,2024-02-20,Germany,EUR,ikea,Ikea,Office
+DHL Express,Delivery service,180,2024-02-22,Romania,EUR,dhl express,DHL,Logistics
+FedEx,Freight charges,220,2024-02-25,Romania,EUR,fedex,FedEx,Logistics
+Google,Cloud storage,90,2024-02-28,Romania,EUR,google,Google,IT
+Meta Ads,Ads campaign,500,2024-03-02,Romania,EUR,meta ads,Meta,Marketing
+Amazon,Keyboard purchase,70,2024-03-05,Romania,EUR,amazon,Amazon,Other
+Unknown Supplier,Office supplies,60,2024-03-08,Romania,EUR,unknown supplier,Unknown Supplier,Office
+Local Shop,Chairs and desk,300,2024-03-10,Romania,EUR,local shop,Local Shop,Office
+Amazon EU,Cloud services,400,2024-04-15,Romania,EUR,amazon eu,Amazon,IT
+Ikea,Office furniture,900,2024-04-18,Germany,EUR,ikea,Ikea,Office
+DHL,Shipping,200,2024-04-20,Romania,EUR,dhl,DHL,Logistics
+Google Ads,Marketing campaign,600,2024-04-25,Romania,EUR,google ads,Google Ads,Marketing
+Amazon,Monitor purchase,750,2024-05-05,Romania,EUR,amazon,Amazon,IT
+Staples Ltd,Office supplies,200,2024-05-10,Germany,EUR,staples ltd,Staples,Office
+FedEx,Delivery service,300,2024-05-15,Romania,EUR,fedex,FedEx,Logistics
+Meta Ads,Social ads,450,2024-05-20,Romania,EUR,meta ads,Meta,Marketing
+Amazon Inc.,Laptop purchase,1300,2024-06-02,Romania,EUR,amazon inc.,Amazon,IT
+IKEA,Desk furniture,800,2024-06-08,Germany,EUR,ikea,Ikea,Office
+DHL Express,Freight shipping,250,2024-06-12,Romania,EUR,dhl express,DHL,Logistics
+Google,Cloud hosting,150,2024-06-18,Romania,EUR,google,Google,IT
+Amazon EU,Software tools,500,2024-07-05,Romania,EUR,amazon eu,Amazon,IT
+Staples,Office chairs,350,2024-07-10,Germany,EUR,staples,Staples,Office
+FedEx,Shipping,280,2024-07-15,Romania,EUR,fedex,FedEx,Logistics
+Meta Ads,Ad campaign,600,2024-07-20,Romania,EUR,meta ads,Meta,Marketing

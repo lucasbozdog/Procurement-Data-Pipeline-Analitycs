@@ -1,0 +1,31 @@
+supplier_name,description,amount,date,country,currency
+amazon inc.,Software subscription,100,15/02/2024,RO,eur
+Staples,Printer ink,120,18/02/2024,DE,EUR
+IKEA,Office desk,650,20/02/2024,DE,eur
+DHL Express,Delivery service,180,22/02/2024,RO,EUR
+FedEx,Freight charges,220,25/02/2024,RO,eur
+Google,Cloud storage,90,28/02/2024,RO,EUR
+Meta Ads,Ads campaign,500,02/03/2024,RO,eur
+Amazon,Keyboard purchase,70,05/03/2024,RO,EUR
+,Office supplies,60,08/03/2024,RO,eur
+Local Shop,Chairs and desk,300,10/03/2024,RO,EUR
+
+Amazon EU,Cloud services,400,15/04/2024,RO,eur
+Ikea,Office furniture,900,18/04/2024,DE,EUR
+DHL,Shipping,200,20/04/2024,RO,eur
+Google Ads,Marketing campaign,600,25/04/2024,RO,EUR
+
+Amazon,Monitor purchase,750,05/05/2024,RO,eur
+Staples Ltd,Office supplies,200,10/05/2024,DE,EUR
+FedEx,Delivery service,300,15/05/2024,RO,eur
+Meta Ads,Social ads,450,20/05/2024,RO,EUR
+
+Amazon Inc.,Laptop purchase,1300,02/06/2024,RO,eur
+IKEA,Desk furniture,800,08/06/2024,DE,EUR
+DHL Express,Freight shipping,250,12/06/2024,RO,eur
+Google,Cloud hosting,150,18/06/2024,RO,EUR
+
+Amazon EU,Software tools,500,05/07/2024,RO,eur
+Staples,Office chairs,350,10/07/2024,DE,EUR
+FedEx,Shipping,280,15/07/2024,RO,eur
+Meta Ads,Ad campaign,600,20/07/2024,RO,EUR

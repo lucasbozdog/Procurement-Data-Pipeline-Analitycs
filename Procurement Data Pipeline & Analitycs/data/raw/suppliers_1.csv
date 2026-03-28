@@ -1,0 +1,10 @@
+supplier_name,description,amount,date,country,currency
+Amazon Inc.,Laptop purchase,1200,12/01/2024,RO,eur
+amazon,Cloud hosting services,300,15/01/2024,RO,EUR
+Staples Ltd,Office chairs,450,20/01/2024,DE,eur
+Ikea,Desk furniture,700,25/01/2024,DE,EUR
+DHL,Shipping costs,150,28/01/2024,RO,eur
+,Printer paper,50,30/01/2024,RO,EUR
+Google Ads,Marketing campaign,400,02/02/2024,RO,eur
+Facebook,Social media ads,350,05/02/2024,RO,EUR
+Amazon EU,Monitor purchase,800,10/02/2024,RO,eur
