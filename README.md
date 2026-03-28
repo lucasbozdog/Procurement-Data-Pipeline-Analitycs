@@ -1,15 +1,14 @@
-# 📊 Procurement Data Pipeline & Analytics
+# Procurement Data Pipeline & Analytics
 
-A simple end-to-end data pipeline that simulates real-world procurement data processing.
+A simple data pipeline that simulates real-world procurement data processing.
 The project demonstrates how messy supplier data can be cleaned, standardized, categorized, and transformed into actionable insights.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
-This project replicates a simplified version of what companies like Sievo do:
+This project replicates a simplified version of what companies do:
 
-* Load raw procurement data from multiple sources
 * Clean and standardize inconsistent data
 * Group suppliers under parent companies
 * Classify spend into categories
@@ -17,7 +16,7 @@ This project replicates a simplified version of what companies like Sievo do:
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 ```
 project/
@@ -47,16 +46,16 @@ project/
 ```
 ---
 
-## ⚙️ Pipeline Steps
+##  Pipeline Steps
 
-### 1. 📥 Data Loading (`load_data.py`)
+### 1.  Data Loading (`load_data.py`)
 
 * Reads multiple CSV files
 * Combines them into a single dataset
 
 ---
 
-### 2. 🧹 Data Cleaning (`clean_data.py`)
+### 2.  Data Cleaning (`clean_data.py`)
 
 * Handles missing values
 * Standardizes text (lowercase, trimming spaces)
@@ -68,7 +67,7 @@ project/
 
 ---
 
-### 3. 🏢 Supplier Standardization (`transform_data.py`)
+### 3.  Supplier Standardization (`transform_data.py`)
 
 * Maps different supplier names to a parent supplier
 
@@ -81,7 +80,7 @@ Amazon EU → Amazon
 
 ---
 
-### 4. 🧠 Spend Classification (`classify_data.py`)
+### 4.  Spend Classification (`classify_data.py`)
 
 * Categorizes transactions based on keywords in descriptions
 
@@ -95,7 +94,7 @@ Categories include:
 
 ---
 
-### 5. 📊 Analytics (`analytics.py`)
+### 5.  Analytics (`analytics.py`)
 
 Generates insights using grouped data:
 
@@ -105,12 +104,23 @@ Generates insights using grouped data:
 
 Outputs:
 
-* Bar charts
-* Line chart for monthly spend
+* Clean dataset:
+```
+data/processed/cleaned_spend_data.csv
+```
+
+* 2 Bar Charts and 1 Line Chart:
+```
+output/
+├── monthly_spend.png
+├── spend_by_category.png
+└── top_suppliers.png
+```
+
 
 ---
 
-### 6. 🌐 Interactive Dashboard (`app.py` - Streamlit)
+### 6.  Interactive Dashboard (`app.py` - Streamlit)
 
 Provides an interactive interface to explore the data:
 
@@ -123,7 +133,7 @@ Provides an interactive interface to explore the data:
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### 1. Install dependencies
 
@@ -140,9 +150,11 @@ python src/main.py
 ```
 
 After running this, the file will be updated:
+```
 data/processed/cleaned_spend_data.csv
+```
 
-⚠️ If you make changes to the pipeline or raw data, you must run this step again before using Streamlit.
+ If you make changes to the pipeline or raw data, you must run this step again before using Streamlit.
 
 
 ---
@@ -155,28 +167,8 @@ This will open an interactive dashboard in your browser.
 
 ---
 
-## 📂 Output
 
-After running the pipeline, the following files will be generated:
-
-* Clean dataset:
-
-```
-data/processed/cleaned_spend_data.csv
-```
-
-* Charts:
-
-```
-output/
-├── monthly_spend.png
-├── spend_by_category.png
-└── top_suppliers.png
-```
-
----
-
-## 📌 Example Insights
+##  Example Insights
 
 * Identify top suppliers by total spend  
 * Track spending trends over time  
@@ -185,20 +177,19 @@ output/
 
 ---
 
-## 💡 Key Concepts Demonstrated
+##  Key Concepts Demonstrated
 
 * Data cleaning and preprocessing  
 * Handling real-world messy data  
 * Data transformation and normalization  
-* Feature engineering (categorization)  
 * Aggregation and analytics using pandas  
 * Building interactive dashboards with Streamlit  
 
 ---
 
-## 🎯 Why This Project
+##  Why This Project
 
-This project was built to simulate real-world data engineering and procurement analytics workflows, focusing on:
+This project was built to simulate real-world data cleaning and procurement analytics workflows, focusing on:
 
 * Structured data pipelines  
 * Business-relevant transformations  
@@ -207,7 +198,7 @@ This project was built to simulate real-world data engineering and procurement a
 
 ---
 
-## 🔧 Future Improvements
+##  Future Improvements
 
 * Implement currency conversion  
 * Use a database instead of CSV files  
@@ -215,7 +206,7 @@ This project was built to simulate real-world data engineering and procurement a
 
 ---
 
-## 👤 Author
+##  Author
 
 Luca Bozdog
 Computer Science Student
